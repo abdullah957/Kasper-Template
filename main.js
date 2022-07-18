@@ -95,7 +95,7 @@ thirdSpan.onclick = function() {
 
 
 function changeBackgroundImage(imageId) {
-    landing.style.backgroundImage = `url(../../img/slider/${imageId}.jpg)`
+    landing.style.backgroundImage = `url(./img/slider/${imageId}.jpg)`
 }
 
 function addActiveClassToSpan() {
