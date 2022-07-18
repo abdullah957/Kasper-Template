@@ -30,7 +30,8 @@ for (let index = 0; index < docImages.length; index++) {
     const element = docImages[index];
     element.alt = "image"    
 }
-
+/*Add Active Class To closeMenu When Navbar Has Active Class
+-- && Rmove It When Click On It------------------------------*/
 //Add Active Class To Nav & MenuIcon
 const closeMenu = document.getElementById("close-menu");
 menuIcon.onclick = function() {
@@ -45,26 +46,7 @@ closeMenu.onclick = function() {
     }
     
 
-/*Add Active Class To closeMenu When Navbar Has Active Class
--- && Rmove It When Click On It------------------------------*/
-// if(nav.classList.contains("active")){
 
-// }
-// links.forEach(link => {
-//     link.onclick=function (e) {
-//         e.preventDefault();
-//         nav.classList.remove("active");
-//         closeMenu.style.display="none";
-//         menuIcon.classList.toggle("show");
-//     }
-// })
-// closeMenu.onclick=function () { 
-//     this.style.display="none";
-//     menuIcon.classList.toggle("show");
-//     nav.classList.toggle("active")
-
-    
-//  }
 //--------------------------
 
 
@@ -113,7 +95,7 @@ thirdSpan.onclick = function() {
 
 
 function changeBackgroundImage(imageId) {
-    landing.style.backgroundImage = `url(../img/slider/${imageId}.jpg)`
+    landing.style.backgroundImage = `url(../../img/slider/${imageId}.jpg)`
 }
 
 function addActiveClassToSpan() {
