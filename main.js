@@ -147,7 +147,7 @@ for (let index = 0; index < links.length; index++) {
     element.setAttribute("href","#")
 }
 
-//Change Bacground Color Of Header
+//Change Bacground Color Of Header 
 window.onload = function() {
     if (landing.getBoundingClientRect().bottom <= (header.getBoundingClientRect().height + window.scrollY)) {
         header.style.background = "var(--second-color)"
